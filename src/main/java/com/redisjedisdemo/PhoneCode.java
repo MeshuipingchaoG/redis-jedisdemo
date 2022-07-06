@@ -52,9 +52,9 @@ public class PhoneCode {
             return ;
         }
         
-        // 获取6位随机码
+        // 获取6位随机码，2分钟有效
         Integer randomCode = getCode();
-        jedis.setex(codeKey, 1200, String.valueOf(randomCode));
+        jedis.setex(codeKey, 120, String.valueOf(randomCode));
         jedis.close();
     }
 
