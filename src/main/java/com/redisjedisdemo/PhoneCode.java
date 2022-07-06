@@ -9,11 +9,14 @@ public class PhoneCode {
     public static void main(String[] args) {
 
         // 1 模拟发送验证码
-        codeVerify("13789976101");
+        codeVerify("15633311145");
 
         // 2 验证随机码是否正确
         //confirmCode("13789976101","201426");
 
+        /**
+         *  加油 欧力给
+         */
 
 
     }
